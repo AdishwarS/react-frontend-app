@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: react-frontend-app
+  title: react-frontend-app
+  description: &quot;Create a React dashboard with TypeScript, Material-UI, and Chart.js for displaying sales analytics&quot;
+  annotations:
+    github.com/project-slug: 
+    backstage.io/managed-by-location: file:./catalog-info.yaml
+    jira.com/project-key: SCRUM
+  tags:
+    - Java
+    - Spring Boot
+spec:
+  type: service
+  owner: backstage-user
+  lifecycle: experimental
+  system: microservices-platform
